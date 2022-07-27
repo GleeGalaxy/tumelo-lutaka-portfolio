@@ -278,7 +278,7 @@ img{
 .projects li{
     display: flex;
     justify-content: center;
-    height: 30vh;
+    height: 174px;
     width: 100%;
 }
 
@@ -296,7 +296,7 @@ img{
     border-radius: 10px;
 }
 
-.project-wrapper{
+.projects-wrapper{
     width: 100%;
 }
 
