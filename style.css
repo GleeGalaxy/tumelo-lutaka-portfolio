@@ -1,0 +1,48 @@
+@media (max-width:960px){
+    .close-menu-btn{
+        display: block;
+    }
+
+    .menu-btn{
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -1900px;
+        flex-direction: column;
+        height: 100vh;
+        width: 90%;
+        background-color: var(--accents);
+        transition: right .5s;
+    }
+
+    .nav-links-active{
+        right: 0;
+    }
+
+    .nav-links li{
+        height: var(--fs-300);
+        margin-bottom: 2em;
+        color: var(--tertiary-clr);
+    }
+
+    .nav-links a{
+        font-size: var(--fs-200);
+        font-weight: 600;
+        color: var(--tertiary-clr);
+    }
+
+    .nav-links a:hover{
+        color: var(--secondary-clr);
+    } 
+
+    .projects ul li a img{
+        height: 200px;
+        width: 100%;
+        margin: 0 auto var(--fs-200) auto;
+        border: 2px solid var(--secondary-clr);
+        border-radius: 10px;
+    }
+}
