@@ -462,6 +462,7 @@ img{
         display: grid;
         grid-template-columns: auto auto auto;
         gap: var(--mp-300);
+        justify-content: center;
         width: 100%;
     }
 
