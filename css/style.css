@@ -168,6 +168,7 @@ img{
     font-size: var(--fs-200);
     padding: var(--mp-100);
     border: 2px solid var(--secondary-clr);
+    border-radius: var(--mp-100);
     color: var(--secondary-clr);
 }
 
